@@ -1,0 +1,221 @@
+[
+  {
+    "path": "/Temperature",
+    "rt": [
+      "oic.r.energy.electrical"
+    ],
+    "if": [
+      "oic.if.baseline",
+      "oic.if.s"
+    ],
+    "remove_properties": [
+      "range",
+      "step",
+      "value",
+      "id",
+      "precision"
+    ],
+    "remove_methods": [
+      "post"
+    ]
+  },
+  {
+    "path": "/Humidity",
+    "rt": [
+      "oic.r.energy.electrical"
+    ],
+    "if": [
+      "oic.if.baseline",
+      "oic.if.s"
+    ],
+    "remove_properties": [
+      "range",
+      "step",
+      "value",
+      "id",
+      "precision"
+    ],
+    "remove_methods": [
+      "post"
+    ]
+  },
+  {
+    "path": "/Moisture_Value",
+    "rt": [
+      "oic.r.energy.electrical"
+    ],
+    "if": [
+      "oic.if.baseline",
+      "oic.if.s"
+    ],
+    "remove_properties": [
+      "range",
+      "step",
+      "value",
+      "id",
+      "precision"
+    ],
+    "remove_methods": [
+      "post"
+    ]
+  },
+  {
+    "path": "/Distance",
+    "rt": [
+      "oic.r.energy.electrical"
+    ],
+    "if": [
+      "oic.if.baseline",
+      "oic.if.s"
+    ],
+    "remove_properties": [
+      "range",
+      "step",
+      "value",
+      "id",
+      "precision"
+    ],
+    "remove_methods": [
+      "post"
+    ]
+  },
+  {
+    "path": "/Shutter_Up_Down",
+    "rt": [
+      "oic.r.switch.binary"
+    ],
+    "if": [
+      "oic.if.baseline",
+      "oic.if.a"
+    ],
+    "remove_properties": [
+      "range",
+      "step",
+      "id",
+      "precision"
+    ]
+  },
+  {
+    "path": "/Buzzer",
+    "rt": [
+      "oic.r.switch.binary"
+    ],
+    "if": [
+      "oic.if.baseline",
+      "oic.if.a"
+    ],
+    "remove_properties": [
+      "range",
+      "step",
+      "id",
+      "precision"
+    ]
+  },
+  {
+    "path": "/LED",
+    "rt": [
+      "oic.r.switch.binary"
+    ],
+    "if": [
+      "oic.if.baseline",
+      "oic.if.a"
+    ],
+    "remove_properties": [
+      "range",
+      "step",
+      "id",
+      "precision"
+    ]
+  },
+  {
+    "path": "/Moisture_Status",
+    "rt": [
+      "oic.r.switch.binary"
+    ],
+    "if": [
+      "oic.if.baseline",
+      "oic.if.a"
+    ],
+    "remove_properties": [
+      "range",
+      "step",
+      "id",
+      "precision"
+    ],
+    "remove_methods": [
+      "post"
+    ]
+  },
+  {
+    "path": "/input2",
+    "rt": [
+      "oic.r.switch.binary"
+    ],
+    "if": [
+      "oic.if.baseline",
+      "oic.if.a"
+    ],
+    "remove_properties": [
+      "range",
+      "step",
+      "id",
+      "precision"
+    ],
+    "remove_methods": [
+      "post"
+    ]
+  },
+  {
+    "path": "/input3",
+    "rt": [
+      "oic.r.switch.binary"
+    ],
+    "if": [
+      "oic.if.baseline",
+      "oic.if.a"
+    ],
+    "remove_properties": [
+      "range",
+      "step",
+      "id",
+      "precision"
+    ],
+    "remove_methods": [
+      "post"
+    ]
+  },
+  {
+    "path": "/relay",
+    "rt": [
+      "oic.r.switch.binary"
+    ],
+    "if": [
+      "oic.if.baseline",
+      "oic.if.a"
+    ],
+    "remove_properties": [
+      "range",
+      "step",
+      "id",
+      "precision"
+    ]
+  },
+  {
+    "path": "/oic/p",
+    "rt": [
+      "oic.wk.p"
+    ],
+    "if": [
+      "oic.if.baseline",
+      "oic.if.r"
+    ],
+    "remove_properties": [
+      "n",
+      "range",
+      "value",
+      "step",
+      "precision",
+      "vid"
+    ]
+  }
+]
