@@ -81,7 +81,7 @@
       "remove_methods" : ["post"]
     },
     {
-      "path" : "/relay",
+      "path" : "/Relay",
       "rt"   : [ "oic.r.switch.binary" ],
       "if"   : ["oic.if.baseline", "oic.if.a" ],
       "remove_properties" : [ "range", "step" , "id", "precision" ]
